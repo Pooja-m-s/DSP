@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-    int a = 10;
-    int b = 20;
+    int n = 5;
+    int arr[] = {1, 2, 3, 4, 5};
 
-    int sum = a + b;   // constant operation
-    cout << "Sum = " << sum;
+    for(int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
 
-    return 0;
+    return 0;
 }
