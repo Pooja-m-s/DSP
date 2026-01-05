@@ -8,5 +8,5 @@ int main() {
     int sum = a + b;   // constant operation
     cout << "Sum = " << sum;
 
-    return 0;
+    return 0;
 }
