@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-    int a = 10;
-    int b = 20;
+    int a = 5;
+    int b = 10;
 
     int sum = a + b;   // constant operation
     cout << "Sum = " << sum;
 
     return 0;
 }
+
