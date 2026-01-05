@@ -2,11 +2,14 @@
 using namespace std;
 
 int main() {
-    int a = 10;
-    int b = 20;
+    int n = 3;
 
-    int sum = a + b;   // constant operation
-    cout << "Sum = " << sum;
+    for(int i = 1; i <= n; i++) {
+        for(int j = 1; j <= n; j++) {
+            cout << "1 ";
+        }
+        cout << endl;
+    }
 
-    return 0;
+    return 0;
 }
